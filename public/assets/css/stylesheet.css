@@ -1,0 +1,205 @@
+div {
+    text-align: center;
+}
+
+.gradient-bg {
+    background: linear-gradient(-45deg, #831f00, #e73c7e, #23a6d5, lightgreen);
+    background-size: 400% 400%;
+    background-repeat: repeat;
+    animation: gradient 15s ease infinite; 
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.background-grey {
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-size: 400%
+  }
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+   
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 50px;
+    width: 50%;
+
+}
+.dscrptn {
+    color: white;
+    font-size: 30px;
+}
+.header {
+    font-size: 60px;
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.header-2 {
+    font-size: 30px;
+    position: absolute;
+    width: 100%;
+}
+.parallax-background-1{
+    background-image: linear-gradient(to bottom, black, darkred, black);
+    height: 1000px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax-background-1 {
+    /*background-image: linear-gradient(to bottom, black, darkred, black);*/
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/009/905/085/4k/jessica-oyhenart-ireliawip-15.jpg?1521511949");
+    height: 1000px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-background-2 {
+    background-image: url("https://cdn.vox-cdn.com/uploads/chorus_asset/file/11697247/jessica_oyhenart_akali_splash_final_lg.jpg");
+    height: 1000px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-background-3 {
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/010/905/753/large/chengwei-pan-1.jpg?1526875963");
+    height: 600px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.pop-in {
+    animation: pop-in 1s ease-out forwards;
+}
+
+
+.background-gradient-grn {
+    background-image: linear-gradient(to bottom, black, darkgreen, black);
+    position: absolute;
+    height: 100vh;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.fade-in {
+    animation: fade-in 1s forwards;
+}
+.left-slide-in {
+    animation: left-slide-in 1s forwards;
+}
+.right-slide-in {
+    animation: right-slide-in 1s forwards;
+}
+.fade-slide-up {
+    animation: fade-slide-up 1s forwards;
+}
+
+.intro-background {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 1.2s;
+}
+.intro-title {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 2.0s;
+}
+
+.intro-background {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 2.4s;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+
+}
+@keyframes fade-slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(4rem);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes right-slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(4rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+@keyframes left-slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(-4rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes pop-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-4rem);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
