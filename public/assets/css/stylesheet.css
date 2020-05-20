@@ -2,6 +2,11 @@ div {
     text-align: center;
 }
 
+html {
+    margin: auto;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
 p {
     color: white;
 }
@@ -13,29 +18,29 @@ p {
     animation: gradient 15s ease infinite; 
     height: 100%;
     width: 100%;
-    position: fixed;
+    position: absolute;
+    background-attachment: scroll;
 }
-
+.bg-gradient-grn {
+    background-image: linear-gradient(to bottom, black, darkgreen, black);
+    position: absolute;
+    height: 100vh;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 .bg-gray {
     background-color: gray;
     height: 100%;
     width: 100%;
-    position: fixed;
-    background-size: 400%
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 50% 100%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-   
-}
+
 .center {
     display: block;
     margin-left: auto;
@@ -65,6 +70,44 @@ p {
     font-size: 30px;
     position: absolute;
     width: 100%;
+}
+
+
+
+.fade-in {
+    animation: fade-in 1s forwards;
+}
+.left-slide-in {
+    animation: left-slide-in 1s forwards;
+}
+.right-slide-in {
+    animation: right-slide-in 1s forwards;
+}
+.fade-slide-up {
+    animation: fade-slide-up 1s forwards;
+}
+
+.intro-background {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 1.2s;
+}
+.intro-title {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 2.0s;
+}
+
+.intro-background {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 2.4s;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+
 }
 .parallax-background-1{
     background-image: linear-gradient(to bottom, black, darkred, black);
@@ -113,52 +156,19 @@ p {
     animation: pop-in 1s ease-out forwards;
 }
 
-
-.background-gradient-grn {
-    background-image: linear-gradient(to bottom, black, darkgreen, black);
-    position: absolute;
-    height: 100vh;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-.fade-in {
-    animation: fade-in 1s forwards;
-}
-.left-slide-in {
-    animation: left-slide-in 1s forwards;
-}
-.right-slide-in {
-    animation: right-slide-in 1s forwards;
-}
-.fade-slide-up {
-    animation: fade-slide-up 1s forwards;
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+   
 }
 
-.intro-background {
-    opacity: 0;
-    animation-fill-mode: forwards;
-    animation-delay: 1.2s;
-}
-.intro-title {
-    opacity: 0;
-    animation-fill-mode: forwards;
-    animation-delay: 2.0s;
-}
-
-.intro-background {
-    opacity: 0;
-    animation-fill-mode: forwards;
-    animation-delay: 2.4s;
-}
-
-#footer {
-    position: absolute;
-    bottom: 0;
-
-}
 @keyframes fade-slide-up {
     0% {
         opacity: 0;
@@ -180,6 +190,7 @@ p {
         transform: translateX(0)
     }
 }
+
 @keyframes left-slide-in {
     0% {
         opacity: 0;
@@ -190,6 +201,7 @@ p {
         transform: translateX(0);
     }
 }
+
 @keyframes fade-in {
     0% {
         opacity: 0;
@@ -198,6 +210,7 @@ p {
         opacity: 1;
     }
 }
+
 @keyframes pop-in {
     0% {
         opacity: 0;
@@ -207,4 +220,9 @@ p {
         opacity: 1;
         transform: none;
     }
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
 }
