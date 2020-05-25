@@ -81,7 +81,10 @@ p {
 
 
 .fade-in {
-    animation: fade-in 1s forwards;
+    opacity: 0;
+    animation: fade-in 2s forwards;
+    animation-delay: 1s;
+    
 }
 .left-slide-in {
     animation: left-slide-in 1s forwards;
