@@ -8,10 +8,11 @@
     <!---Bootstrap--->
     <link rel= "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class = "center fade-in">     
         <div class = "gradient-bg">
@@ -57,31 +58,45 @@
                         <div class ="dscrptn">
                             Web | Mobile | Java 
                         </div>
-
-                    </div>
-                </div>
-                <div class = "row">
-                    <div class = "col-md-12">
                         <a href = "https://github.com/k-ly73">
                             <img style = "margin: 5px" src="public/assets/images/github-logo.png">
                         </a>
                         <a href = "https://www.linkedin.com/in/kevin-ly-933670187/">
                             <img style = "margin: 5px; width: 32px;" src="public/assets/images/linkedin-logo.png">
-                        </a>    
-                
+                        </a>  
+
                     </div>
                 </div>
+    
                 <div class = "row" style = "margin: 50px;">
                     <div class = "col-md-12">
                         <a href = "about.html">
                            <p>Learn More About Me</p>
                         </a>
-                
+                        <div data-aos ="fade-down">
+                            <h1 class = "text-white" style = "margin-top: 500px;">
+                                Overview
+                            </h1>
+                            <p style ="margin-top: 70px; margin-bottom: 70px;">
+                                Novice Web Developer. Amateur artist on the side. 
+                                Experienced in areas of Front-End Web Design and Mobile App Development
+                            </p>
+                        </div>
+                        
                     </div>
                 </div>
 
             </div>
         </div>
     </div>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
+
+
+
+
 </html>

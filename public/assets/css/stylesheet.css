@@ -12,21 +12,12 @@ p {
     background-size: 400% 400%;
     background-repeat: repeat;
     animation: gradient 15s ease infinite; 
-    height: 100%;
+    height: 500%;
     width: 100%;
     position: absolute;
-    background-attachment: scroll;
+    display: flex;
 }
-.bg-gradient-grn {
-    background-image: linear-gradient(to bottom, black, darkgreen, black);
-    position: absolute;
-    height: 100vh;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
+
 .bg-gray {
     background-color: #606060; 
     height: 100%;
