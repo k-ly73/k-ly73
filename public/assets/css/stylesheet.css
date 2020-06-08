@@ -10,6 +10,17 @@ p {
     color: white;
 }
 
+.arrow-dowm {
+    position: relative;
+    bottom: -2rem;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+}
+.text-white {
+    color: white;
+}
 .gradient-bg {
     background: linear-gradient(-45deg, #831f00, #e73c7e, #23a6d5, lightgreen);
     background-size: 400% 400%;
