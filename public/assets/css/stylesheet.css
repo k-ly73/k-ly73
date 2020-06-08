@@ -48,7 +48,6 @@ p {
 
 }
 .dscrptn {
-    color: white;
     font-size: 30px;
 }
 .header {
@@ -83,10 +82,14 @@ p {
     animation-delay: 3s;
 }
 .left-slide-in {
+    opacity: 0;
     animation: left-slide-in 1s forwards;
+    animation-delay: 3s
 }
 .right-slide-in {
+    opacity: 0;
     animation: right-slide-in 1s forwards;
+    animation-delay: 3s
 }
 .fade-slide-up {
     animation: fade-slide-up 1s forwards;
