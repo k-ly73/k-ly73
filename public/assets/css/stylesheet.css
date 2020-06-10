@@ -6,19 +6,15 @@ body {
     display: flex;
 }
 
-p {
-    color: white;
-}
-
 .text-white {
     color: white;
 }
 .gradient-bg {
     background: linear-gradient(-45deg, #831f00, #e73c7e, #23a6d5, lightgreen);
     background-size: 400% 400%;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     animation: gradient 15s ease infinite; 
-    height: 300%;
+    height: 320%;
     width: 100%;
     position: absolute;
     display: flex;
