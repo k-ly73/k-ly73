@@ -9,16 +9,28 @@ body {
 .text-white {
     color: white;
 }
-.gradient-bg {
-    background: linear-gradient(-45deg, #831f00, #e73c7e, #23a6d5, lightgreen);
-    background-size: 400% 400%;
+
+.bg-city {
+    background-image: url("../../assets/images/orange-county.jpg");
+    height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.gradient-bg {
+    background: repeating-linear-gradient(-45deg, #831f00, #e73c7e, #23a6d5, lightgreen);
+    background-size: 500% 200%;
+    background-repeat: repeat;
     animation: gradient 15s ease infinite; 
-    height: 300%;
+    height: auto;
+    min-height: 100%;
+    margin: 0px auto;
+    padding: 0px auto;
     width: 100%;
     position: absolute;
-    display: flex;
-    background-attachment: fixed;
+    filter: brightness(50%);
 }
 
 .bg-gray {
@@ -36,14 +48,9 @@ body {
 }
 .center {
     text-align: center;
-}
-
-.content {
-    margin: 0 auto;
-    padding: 50px;
-    width: 50%;
 
 }
+
 .dscrptn {
     font-size: 30px;
 }
@@ -52,12 +59,11 @@ body {
     font-weight: bold;
     width: 100%;
     color: white;
-    text-align: center;
+
 }
 
 .header-2 {
     font-size: 30px;
-    position: absolute;
     width: 100%;
 }
 
@@ -161,6 +167,12 @@ body {
     animation: pop-in 1s ease-out forwards;
 }
 
+.wrapper {
+    height: auto;
+    min-height: 100%;
+    margin: 0px auto;
+    padding: 0px auto;
+}
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
