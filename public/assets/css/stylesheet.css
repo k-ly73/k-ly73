@@ -78,7 +78,9 @@ body {
 li {
     list-style: none;
 }
-
+.fa {
+    text-decoration: none;
+}
 .fade-in {
     opacity: 0;
     animation: fade-in 2s forwards;
