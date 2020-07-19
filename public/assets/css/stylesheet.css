@@ -67,10 +67,17 @@ body {
     width: 100%;
 }
 
-.fa {
-    color: white;
+/*
+    CSS for Forms
+*/
+.round-input {
+    padding: 10px;
+    border-radius: 10px;
 }
 
+li {
+    list-style: none;
+}
 
 .fade-in {
     opacity: 0;
