@@ -11,6 +11,9 @@ body {
     display: flex;
 }
 
+.container {
+    max-width: 640px;
+}
 .text-white {
     color: white;
 }
