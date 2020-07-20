@@ -219,6 +219,12 @@ right: 16px;
     margin: 0px auto;
     padding: 0px auto;
 }
+
+@media (min-width: 1300px) {
+   
+   
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
