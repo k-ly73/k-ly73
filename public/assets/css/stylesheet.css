@@ -105,7 +105,7 @@ a:link {
     opacity: 1;
 }
 
-.hover-shade #myImg, .hover-shade #myImg2, .detail {
+.hover-shade #myImg, .hover-shade #myImg2, .centered {
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
@@ -117,36 +117,38 @@ a:link {
     position: absolute;
     bottom: 8px;
     left: 16px;
-  }
-  
-  /* Top left text */
-  .top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-  }
-  
-  /* Top right text */
-  .top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-  }
-  
-  /* Bottom right text */
-  .bottom-right {
+}
+
+/* Top left text */
+.top-left {
+position: absolute;
+top: 8px;
+left: 16px;
+}
+
+/* Top right text */
+.top-right {
+position: absolute;
+top: 8px;
+right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
     position: absolute;
     bottom: 8px;
     right: 16px;
-  }
-  
-  /* Centered text */
-  .centered {
+}
+
+/* Centered text */
+.centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+    opacity: 0;
+}
+
 .hover-shade:hover #myImg {
     opacity: 0.3;
 }
@@ -156,7 +158,7 @@ a:link {
 }
 
 
-.hover-shade:hover .detail { 
+.hover-shade:hover .centered { 
     visibility: visible;
     opacity: 1;
 }
