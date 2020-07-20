@@ -75,20 +75,23 @@ body {
     border-radius: 10px;
 }
 
+/*
+    Image Hover CSS
+*/
 a:link {
     text-decoration: none;
 }
 
 .hover-shade {
-    height: 500px;
-    width: 600px;
+    height: auto;
+    width: auto;
     float: left;
     padding: 0;
     position: relative;
     background-color: black;
 }
 
-.hover-shade img {
+.hover-shade #myImg {
     padding: 0;
     height: 500px;
     width: 600px;
@@ -96,28 +99,68 @@ a:link {
     opacity: 1;
 }
 
-.hover-shade img, .album-detail {
+.hover-shade #myImg2 {
+    padding: 0;
+    display: inline;
+    opacity: 1;
+}
+
+.hover-shade #myImg, .hover-shade #myImg2, .detail {
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
     transition: opacity 0.5s ease-out;
 }
 
-.album-detail {
+/* Bottom left text */
+.bottom-left {
     position: absolute;
-    font-size: 24px;
-    top: 40%;
-    left: 20%;
-    opacity: 0;
-}
-.hover-shade:hover img {
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.hover-shade:hover #myImg {
     opacity: 0.3;
 }
 
-.hover-shade:hover .album-detail{ 
+.hover-shade:hover #myImg2 {
+    opacity: 0.3;
+}
+
+
+.hover-shade:hover .detail { 
     visibility: visible;
     opacity: 1;
 }
+
 
 
 .fa {
