@@ -8,15 +8,13 @@ html {
     background-size: cover;
 }
 
-* {
-    width: 100%;
-}
+
 body {
     display: flex;
 }
 
 .container {
-    max-width: 640px;
+    width: 100%;
 }
 .text-white {
     color: white;
@@ -105,8 +103,6 @@ a:link {
 
 .hover-shade #myImg {
     padding: 0;
-    height: 500px;
-    width: 600px;
     display: block;
     opacity: 1;
 }
