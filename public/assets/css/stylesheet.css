@@ -168,6 +168,7 @@ right: 16px;
 .fa {
     text-decoration: none;
 }
+
 .fade-in {
     opacity: 0;
     animation: fade-in 2s forwards;
@@ -190,8 +191,9 @@ right: 16px;
     animation: right-slide-in 1s forwards;
     animation-delay: 3s
 }
-.fade-slide-up {
-    animation: fade-slide-up 1s forwards;
+.fade-slide-down {
+    animation: fade-slide-down 1s forward;
+    animation-delay: 3s;
 }
 
 .intro-background {
@@ -282,10 +284,10 @@ right: 16px;
    
 }
 
-@keyframes fade-slide-up {
+@keyframes fade-slide-down {
     0% {
         opacity: 0;
-        transform: translateY(4rem);
+        transform: translateY(-6rem);
     }
     100% {
         opacity: 1;
@@ -344,6 +346,11 @@ right: 16px;
         opacity: 1;
         transform: none;
     }
+}
+
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
 }
 
 ::-webkit-scrollbar {
