@@ -40,7 +40,7 @@ body {
     padding: 0px auto;
     width: 100%;
     position: absolute;
-    filter: brightness(50%);
+
 }
 
 .bg-gray {
@@ -60,22 +60,20 @@ body {
     text-align: center;
 
 }
-
+nav {
+    margin: 10px;
+}
 .dscrptn {
     font-size: 30px;
 }
 .header {
-    font-size: 60px;
-    font-weight: bold;
+    font-size: 100px;
+    font-family: "Dosis";
     width: 100%;
-    color: white;
 
 }
 
-.header-2 {
-    font-size: 30px;
-    width: 100%;
-}
+
 
 /*
     CSS for Forms
@@ -90,6 +88,7 @@ body {
 */
 a:link {
     text-decoration: none;
+    color: white;
 }
 
 .hover-shade {
