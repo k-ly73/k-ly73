@@ -48,9 +48,9 @@
                     <div class = col-md-4>
 
                     </div>
-                    <div class = col-md-4>
-                        <img data-aos = "fade-in" src= "./public/assets/images/ProfilePictureKevin.png" style= "height: 300px;">
-                        <div data-aos = "fade-in" style = "font-size: 20px;">
+                    <div data-aos = "fade-in" class = col-md-4>
+                        <img  src= "./public/assets/images/ProfilePictureKevin.png" style= "height: 300px;">
+                        <div style = "font-size: 20px;">
                             <p>
                                 Welcome! My name is Kevin and I am a student at Cal Poly Pomona pursuing my Bachelor's Degree 
                                 of Computer Science, graduating in Fall 2020.
@@ -110,8 +110,7 @@
                 targets: '.ml14 .letter',
                 opacity: [0, 1],
                 translateX: [40, 0],
-                translateZ: 0,
-                scaleX: [0.3, 1],
+                translateZ: 0,              
                 easing: "easeOutExpo",
                 duration: 1400,
                 delay:(el, i) => 300 + 30 * i
@@ -119,6 +118,7 @@
                 targets: '.ml14 .letter',
                 opacity: [1, 0],
                 translateX: [0, -40],
+                translateZ: 0,
                 easing: "easeInExpo",
                 duration: 1200,
                 delay:(el, i) => 300 + 30 * i

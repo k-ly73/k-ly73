@@ -63,6 +63,9 @@ body {
 }
 nav {
     margin: 10px;
+    
+    box-shadow: 0 -3px 3px -3px rgba(0,0,0,.2);
+
 }
 .dscrptn {
     font-size: 30px;
