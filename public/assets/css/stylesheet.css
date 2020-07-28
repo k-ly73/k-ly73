@@ -2,6 +2,7 @@ html {
     scroll-behavior: smooth;
     overflow: overlay;
     overflow-x: hidden;
+    
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -61,11 +62,12 @@ body {
     text-align: center;
 
 }
+
 nav {
     margin: 10px;
-    
-    box-shadow: 0 -3px 3px -3px rgba(0,0,0,.2);
-
+}
+.filter {
+    filter: brightness(50%);
 }
 .dscrptn {
     font-size: 30px;
