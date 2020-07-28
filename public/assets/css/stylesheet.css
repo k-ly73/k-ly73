@@ -2,7 +2,6 @@ html {
     scroll-behavior: smooth;
     overflow: overlay;
     overflow-x: hidden;
-    
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -20,6 +19,9 @@ body {
 }
 .text-white {
     color: white;
+}
+nav { 
+    back
 }
 
 .bg-city {
@@ -63,9 +65,7 @@ body {
 
 }
 
-nav {
-    margin: 10px;
-}
+
 .filter {
     filter: brightness(50%);
 }
