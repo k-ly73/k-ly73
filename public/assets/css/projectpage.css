@@ -1,3 +1,9 @@
+.row {
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 html {
     scroll-behavior: smooth;
     overflow: overlay;
@@ -8,6 +14,7 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
+
 
 
 body {
