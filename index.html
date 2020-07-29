@@ -49,7 +49,7 @@
                     
                     <div class = "col-sm-12">
                         
-                        <h1 class = "ml14">
+                        <h1 class = "animate14">
                            <span class = "text-wrapper">
                                <span class = "letters">You and I, can make UI</span>
                            </span>
@@ -57,7 +57,7 @@
                         </h1>
                         
                         <div class = "fade-in">
-                            <h4 style= "margin-top: 350px; margin-bottom: 50px;">Learn More Below</h4>
+                            <div style= "margin-top: 350px; margin-bottom: 50px;">Learn More Below</div>
                             <i class = "fa fa-arrow-down fa-2x bounce"></i>
                         </div>
                    
@@ -110,11 +110,11 @@
         AOS.init();
 
         // Moving Letters
-        var textWrapper = document.querySelector('.ml14 .letters');
+        var textWrapper = document.querySelector('.animate14  .letters');
         textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class = 'letter'>$&</span>");
         anime.timeline({loop: true})
             .add({
-                targets: '.ml14 .letter',
+                targets: '.animate14  .letter',
                 opacity: [0, 1],
                 translateX: [40, 0],
                 translateZ: 0,              
@@ -122,7 +122,7 @@
                 duration: 1400,
                 delay:(el, i) => 300 + 30 * i
             }).add({
-                targets: '.ml14 .letter',
+                targets: '.animate14  .letter',
                 opacity: [1, 0],
                 translateX: [0, -40],
                 translateZ: 0,
