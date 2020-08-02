@@ -31,6 +31,9 @@ body {
     background-attachment: fixed;
 }
 
+img {
+    max-width: 100%;
+}
 .gradient-bg {
     background: repeating-linear-gradient(-45deg, #831f00, #e73c7e, #23a6d5, lightgreen);
     background-size: 500% 200%;
@@ -42,6 +45,7 @@ body {
     padding: 0px auto;
     width: 100%;
     position: absolute;
+    max-width: 100%;
 
 }
 
