@@ -9,6 +9,9 @@ html {
     background-size: cover;
 }
 
+.container-fluid {
+    width: 100%;
+}
 
 body {
     display: flex;
