@@ -21,9 +21,6 @@ body {
     display: flex;
 }
 
-.container {
-    width: 100%;
-}
 .text-white {
     color: white;
 }
@@ -73,6 +70,7 @@ body {
 .dscrptn {
     font-size: 30px;
 }
+
 .header {
     font-size: 100px;
     font-family: "Dosis";
