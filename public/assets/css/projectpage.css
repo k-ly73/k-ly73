@@ -110,7 +110,7 @@ body {
 @media only screen and (max-width: 320px) {
     /* styles for narrow screens */
     img {
-        max-width: 100%;
+        width: 200px;
         height: auto;
     }
     video {
