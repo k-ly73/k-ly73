@@ -109,15 +109,26 @@ body {
 
 @media only screen and (max-width: 600px) {
     /* styles for narrow screens */
-    img {
-        width: 200px;
+    img.responsive {
+        width: 100%;
         height: auto;
     }
-    video {
-        width: 200px;
+    iframe.responsive {
+        width: 100%;
         height: auto;
     }
 }
+
+/*
+
+img { 
+    max-width: 100%;
+}
+
+video {
+    max-width: 100%;
+}
+*/
 
 /*
     Image Hover CSS
