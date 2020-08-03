@@ -109,7 +109,7 @@ body {
 
 @media only screen and (max-width: 600px) {
     /* styles for narrow screens */
-    img.responsive {
+    .responsive {
         width: 100%;
         height: auto;
     }
