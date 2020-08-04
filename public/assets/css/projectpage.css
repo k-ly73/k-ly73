@@ -109,6 +109,9 @@ body {
 
 @media only screen and (max-width: 600px) {
     /* styles for narrow screens */
+    html {
+        width: 100%;
+    }
     .responsive {
         width: 100%;
         height: auto;
