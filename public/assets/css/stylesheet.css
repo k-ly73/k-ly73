@@ -22,14 +22,6 @@ body {
 }
 
 
-.bg-city {
-    background-image: url("../../assets/images/orange-county.jpg");
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
 @media only screen and (max-width: 320px) {
     /* styles for narrow screens */
@@ -58,14 +50,6 @@ body {
 
 }
 
-.bg-gray {
-    background-color: #606060; 
-    height: 100%;
-    width: 100%;
-    background-size: cover; 
-    background-attachment: fixed;
-
-}
 .bounce {
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
@@ -175,7 +159,7 @@ a:link {
 }
 
 .trn {
-    background: transparent !important;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0)) !important;
     z-index: 99;
 }
 /* Bottom left text */
