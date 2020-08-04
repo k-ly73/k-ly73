@@ -171,16 +171,16 @@ a:link {
 
 /* Top left text */
 .top-left {
-position: absolute;
-top: 8px;
-left: 16px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
 
 /* Top right text */
 .top-right {
-position: absolute;
-top: 8px;
-right: 16px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
 }
 
 /* Bottom right text */
