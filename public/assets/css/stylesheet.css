@@ -60,13 +60,15 @@ body {
 
 }
 
+.dscrptn {
+    font-size: 30px;
+}
+
 
 .filter {
     filter: brightness(50%);
 }
-.dscrptn {
-    font-size: 30px;
-}
+
 .header {
     font-size: 100px;
     font-family: "Dosis";
