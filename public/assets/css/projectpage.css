@@ -289,6 +289,15 @@ right: 16px;
     }
    
 }
+a.navbar-brand{
+    font-family: 'Cookie', serif;
+    font-size: 40px !important;
+}
+
+.nav-item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 @keyframes fade-slide-down {
     0% {

@@ -21,8 +21,6 @@ body {
     color: white;
 }
 
-
-
 @media only screen and (max-width: 320px) {
     /* styles for narrow screens */
     img {
@@ -47,6 +45,10 @@ body {
     width: 100%;
     position: absolute;
     max-width: 100%;
+
+}
+
+.nav-item{
 
 }
 
@@ -119,6 +121,7 @@ body {
 /*
     CSS for Forms
 */
+
 .round-input {
     padding: 10px;
     border-radius: 10px;
@@ -160,9 +163,19 @@ a:link {
     transition: opacity 0.5s ease-out;
 }
 
+a.navbar-brand{
+    font-family: 'Cookie', serif;
+    font-size: 40px !important;
+}
+
 .trn {
     background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0)) !important;
     z-index: 99;
+}
+
+.nav-item {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 /* Bottom left text */
 .bottom-left {
