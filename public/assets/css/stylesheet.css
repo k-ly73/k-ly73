@@ -11,6 +11,15 @@ html {
 
 .container-fluid {
     width: 100%;
+
+}
+.m-tb-100 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.m-tb-300 {
+    margin-top: 300px;
+    margin-bottom: 300px;
 }
 
 body {
@@ -20,6 +29,16 @@ body {
 .text-white {
     color: white;
 }
+
+hr.dashed {
+    border-top: 3px solid white;
+    border-radius: 5px;
+}
+/* Profile stuff */
+.profile-section {
+
+}
+
 
 @media only screen and (max-width: 320px) {
     /* styles for narrow screens */
@@ -33,6 +52,30 @@ body {
     }
 }
 
+
+/* Small (sm) 320px up */
+@media only screen and (max-width: 320px) {
+    .gradient-bg {
+        background-size: 500% 200%;
+    }
+}
+
+
+/*Medium (md) tablets 768px and up */
+@media (min-width: 768px){ 
+
+}
+
+/* Large (lg) desktops 992px and up*/
+@media (min-width: 992px){ 
+
+}
+
+/* Extra Large (xl) large desktops 1200px and up */
+@media (min-width: 1200px){ 
+
+    
+}
 .gradient-bg {
     background: repeating-linear-gradient(-45deg, #831f00, #e73c7e, #23a6d5, lightgreen);
     background-size: 500% 200%;
@@ -48,8 +91,21 @@ body {
 
 }
 
-.nav-item{
-
+.gradient-blue {
+    background: repeating-linear-gradient(-45deg, #4fd6ff, #128bb8, #23a6d5, lightgreen);
+    background-size: 500% 200%;
+    background-repeat: repeat;
+    animation: gradient 15s ease infinite; 
+    height: auto;
+    min-height: 100%;
+    margin: 0px auto;
+    padding: 0px auto;
+    width: 100%;
+    position: absolute;
+    max-width: 100%;
+}
+.auto-ctr {
+    margin: auto;
 }
 
 .bounce {
@@ -66,6 +122,10 @@ body {
     font-size: 30px;
 }
 
+.about-text {
+    font-weight: 200px;
+    font-size: 1.2rem;
+}
 
 .filter {
     filter: brightness(50%);
@@ -80,9 +140,14 @@ body {
 
 
 /* Animation Moving Letters */
-.animate14 { 
+.animate { 
     font-weight: 200;
     font-size: 3.2em;
+}
+
+.project-header {
+    font-weight: 100;
+    font-size: 2.2em;
 }
 .line {
     opacity: 0;
@@ -90,22 +155,20 @@ body {
     left: 0;
     height: 2px;
     width: 100%;
-    background-color: white;
     bottom: 0;
 }
 
 
-.animate14 .line {
+.animate .line {
     opacity: 0;
     position: absolute;
     left: 0;
     height: 2px;
     width: 100%;
-    background-color: white;
     transform-origin: 100% 100%;
     bottom: 0;
 }
-.animate14  .text-wrapper {
+.animate  .text-wrapper {
     position: relative;
     display: inline-block;
     padding-top: 0.1em;
@@ -113,7 +176,7 @@ body {
     padding-bottom: 0.15em;
 }
 
-.animate14  .letter {
+.animate  .letter {
     display: inline-block;
     line-height: 1em;
 }
@@ -177,33 +240,7 @@ a.navbar-brand{
     margin-left: 20px;
     margin-right: 20px;
 }
-/* Bottom left text */
-.bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
 
-/* Top left text */
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-}
-
-/* Top right text */
-.top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-}
-
-/* Bottom right text */
-.bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-}
 
 /* Centered text */
 .centered {

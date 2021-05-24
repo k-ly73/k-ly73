@@ -6,14 +6,14 @@
     <meta charset="utf-8">
 
     <!--Fonts and CSS-->
-    <link rel = "stylesheet" href="public/assets/css/stylesheet.css">
-    <link rel = "stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Arimo|Oxygen|Dosis|Cookie">
-    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="public/assets/css/stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Arimo|Oxygen|Dosis|Cookie">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Pure Form -->
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
 
     <!---Bootstrap--->
-    <link rel= "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -21,64 +21,62 @@
 </head>
 
 <body>
-    <div class = "wrapper gradient-bg">  
-        <nav class ="navbar navbar-expand-lg trn justify-content-between text-white">
-            <a class = "navbar-brand" style = "color: white;">
+    <div class="wrapper gradient-blue">  
+        <nav class="navbar navbar-expand-lg trn fixed-top justify-content-between text-white">
+            <a class="navbar-brand" style="color: white;">
                 Kevin Ly
             </a>
             <div>
-                <ul class ="navbar-nav">
-                    <li class = "nav-item">
-                        <a class ="nav-link " href ="index.html" style = "color: white;">Home</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html" style="color: white;">Home</a>
                     </li>
-                    <li class = "nav-item">
-                        <a class ="nav-link" href ="contact.html" style = "color: white;">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#about" style="color: white;">About</a>
                     </li>
-                    <li class = "nav-item">
-                        <a class ="nav-link" href ="projects.html" style = "color: white;">Projects</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" style="color: white;">Projects</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" style="color: white;">Contact</a>
+                    </li>
+
                 </ul>
             </div>
          
         </nav>   
-        <div class="container-fluid center text-white">          
-            <div class="row" style="margin-top: 300px;">
-                
-                <div class="col-sm-12">
-                    
-                    <h1 class="animate14">
+        <div class="container-fluid m-tb-300 center text-white">          
+            <div class="row">           
+                <div class="col-sm-12 col-xs-4">       
+                    <h1 class="animate">
                         <span class="text-wrapper">
                             <span class="letters">You and I, can make UI</span>
-                        </span>
-                        
-                    </h1>
-                    
+                        </span>     
+                    </h1>  
                     <div class="fade-in">
                         <div style="margin-top: 250px; margin-bottom: 50px;">Learn More Below</div>
                         <i class="fa fa-arrow-down fa-2x bounce"></i>
                     </div>
-                
                 </div>           
             </div>                       
         </div>
-        <div class="container-fluid center text-white">
-            <div id="about" class="row" style="margin-top: 400px; margin-bottom: 100px;">
-                <div class = col-md-4>
+        <div id="about" class="container-fluid m-tb-300 text-white">
+            <hr class="dashed"></hr>
+            <div id="about" class="row text-white" style="margin-top: 100px;">  
+            </div>
+            <div id="about" class="row">
+                <div class="col-sm-2 col-xs-2">
 
                 </div>
-                <div data-aos="fade-in" class=col-md-4>
-                    <img class="responsive" src="./public/assets/images/ProfilePictureKevin.png" style= "height: 300px;">
-                    <div style="font-size: 20px;">
-                        <p>
-                            Welcome! My name is Kevin and I graduated from Cal Poly Pomona with a Bachelor's Degree 
-                            of Computer Science.
-                            I enjoy creating and designing interactive websites. 
-                        </p>
-                        <p>
-                            Outside of programming, I like to 
-                            do photography and create digital drawings 
-                        </p>
-                    </div>
+                <div class="col-sm-2 col-xs-2" data-aos="fade-in">
+                    <h1 class="animate">About Me</h1>
+                    <br/>
+                    <p class="about-text">
+                        Hello! I'm Kevin, a graduate from Cal Poly Pomona,
+                        with a Bachelor's Degree in Computer Science.
+                        I enjoy creating different kinds of interactive websites.
+                        My vision is to implement ideal web design into reality.
+                    </p>
                     <div>
                         <a href="https://github.com/k-ly73">
                             <img src="public/assets/images/github-logo.png">
@@ -88,12 +86,195 @@
                         </a>
                     </div>
                     
+                </div>
+                <div data-aos="fade-in" class="col-sm-4 col-xs-4 center">
+
+                    <img src="./public/assets/images/ProfilePictureKevin.png" style= "height: 300px;">
+
                 </div> 
-                <div class = col-md-4>
+                <div class="col-sm-2 col-xs-2" data-aos="fade-in">
+                    <h1 class="animate">Skills</h1>
+                    <br/>
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-6">
+                            <h5>Frameworks</h5>
+                            <ul>
+                                <li>ReactJS</li>
+                                <li>Laravel</li>
+                                <li>Wix</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-xs-6">
+                            <h5>Languages</h5>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>Python</li>
+                                <li>Java</li>
+                                <li>PHP</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-sm-2 col-xs-2">
                     
                 </div>
             </div>
         </div>
+
+        <div id="projects" class="container-fluid m-tb-300 auto-ctr">
+            <hr class="dashed"></hr>
+            <div class="row center text-white" style="margin-top: 100px;">
+                <div class="col-md-12 col-xs-12" data-aos="fade-in">
+                    <h1 class="animate">Projects</h1>
+                </div>    
+            </div>
+            <div class="row text-white m-tb-100">
+                <div class="col-sm-2 col-xs-2">
+
+                </div>
+                <div data-aos="fade-right" class="col-sm-4 col-xs-4">
+                    <div class = "hover-shade">
+                        
+                        <a href="https://photobum.netlify.app/" style="color: white;">
+                            <img id="myImg2" src="public/assets/images/PhotoBum-white.png"
+                                style="height: 150px; width: 350px;"
+                            >
+                            <div class="centered">
+                                <p>PhotoBum, a miniature social media application</p>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+                <div data-aos="fade-left" class="col-sm-4 col-xs-4 auto-ctr">
+                    <h2 class="project-header">PhotoBum</h2>
+                    <p>
+                        PhotoBum is a mini social media, instagram-like application.
+                        Implemented features include posting images, commenting on posts, and 
+                        like button functionality, and google sign-in for users to participate. 
+                        This application was developed using ReactJS framework with Google Firebase backend storage.
+                    </p>
+                </div>
+                <div class="col-sm-2 col-xs-2">
+
+                </div>
+            </div>
+            <div class="row text-white m-tb-100">
+                <div class="col-sm-2 col-xs-2">
+
+                </div>
+                <div data-aos="fade-right" class="col-sm-4 col-xs-4 auto-ctr" >
+                    <h2 class="project-header">BobaFrenzy</h2>
+                    <p>
+                        This little android app is made as a creative simulation for people to 
+                        selectively order milk tea drinks as well as an interactive 
+                        page to control widgets that allow users to "virtually create" their own drinks.
+                        This mobile application was developed using Flutter as the main framework, with 
+                        the Dart Programming language as support and Google Firebase for backend storage.
+                    </p>
+                </div>
+                <div data-aos="fade-left" class="col-sm-4 col-xs-4 auto-ctr">        
+
+                    <div class="hover-shade">
+                        
+                        <a href="https://play.google.com/store/apps/details?id=com.flutter.BobaFrenzy" style = "color: white;">
+                            <img id="myImg" src="public/assets/images/AppSnapshot2.PNG" style ="height: 300px; width: 200px;">
+                            <div class="centered">
+                                <p>
+                                    BobaFrenzy, an interactive android application
+                                </p>
+                            </div>
+                        </a>
+                        
+                    </div>            
+                </div>
+                <div class="col-sm-2 col-xs-2">
+
+                </div>
+            </div>
+            <div class="row text-white m-tb-100">
+                <div class = "col-sm-2 col-xs-2">
+            
+                </div>
+                <div data-aos="fade-right" class="col-sm-4 col-xs-4">
+                    <div class="hover-shade">
+                        <a href ="https://www.youtube.com/embed/Tv1DGACwy1U" style = "color: white;">
+                            <img id="myImg" src="public/assets/images/TheShuffling.png">
+                            <div class="centered">
+                                <p>
+                                    TheShuffling, a web app for MTG players
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="col-sm-4 col-xs-4 auto-ctr" >
+                    <h2 class="project-header">TheShuffling</h2>
+                    <p>
+                        A web application that caters to users who play Magic the Gathering.
+                        This website allows users to catalog a collection of specific cards 
+                        within their posession, making it easier to keep track of their deck without
+                        having to completely search out their deck. Other implemented features
+                        include global chatting system. This application was developed using standard web programming 
+                        tools with NodeJS to read the API data for Magic the Gathering cards and MongoDB as database storage
+                    </p>
+                </div>
+                <div class="col-sm-2 col-xs-2">
+            
+                </div>
+            </div>
+        
+            
+        </div>
+        <div id="contact" class="container-fluid m-tb-300 auto-ctr">
+            <hr class="dashed"></hr>
+            <div class = "row text-white m-tb-100">
+                <div class = "col-md-4">
+
+                </div>
+                <div class = "col-md-4">
+                    <h1 class = "center animate">Contact</h1>
+                    <p>
+                        If you would like to contact me for various reasons,
+                        please leave your email and a short message. I will respond as soon as possible!
+                        Thank you!
+                    </p>
+                    <form class = "pure-form pure-form-aligned" action="https://formspree.io/xknqpebl" method="POST">
+                        <fieldset>
+                            <div class = "pure-control-group">
+                                <label for = "aligned-name"> Full Name</label>
+                                <input type = "text" name = "name" placeholder= "Full Name" required>
+                            </div>
+                            <div class = "pure-control-group">
+                                <label for = "aligned-email"> Email</label>
+                                <input type = "text" name = "_replyto" placeholder= "Email" required>
+                            </div>
+                            <div class = "pure-control-group">
+                                <label for = "aligned-message">Your Message</label>
+                                <textarea class="pure-input-1-2" name = "message" placeholder = "Your Message " required></textarea>
+                            </div>
+                            <div class = "pure-control-group center">
+                                <button class = "pure-button pure-button-primary round-input" type="submit">Send</button>
+                            </div>
+                            
+                        </fieldset>
+                        
+                    </form>
+                </div>
+                <div class = "col-md-4">
+                    
+                </div>
+            
+
+            </div>
+        
+        </div>
+    
     </div>
 
     <!--Animation packages-->
@@ -106,11 +287,11 @@
         AOS.init();
 
         // Moving Letters
-        var textWrapper = document.querySelector('.animate14  .letters');
+        var textWrapper = document.querySelector('.animate  .letters');
         textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class = 'letter'>$&</span>");
         anime.timeline({loop: true})
             .add({
-                targets: '.animate14  .letter',
+                targets: '.animate  .letter',
                 opacity: [0, 1],
                 translateX: [40, 0],
                 translateZ: 0,              
@@ -118,7 +299,7 @@
                 duration: 1400,
                 delay:(el, i) => 300 + 30 * i
             }).add({
-                targets: '.animate14  .letter',
+                targets: '.animate  .letter',
                 opacity: [1, 0],
                 translateX: [0, -40],
                 translateZ: 0,
