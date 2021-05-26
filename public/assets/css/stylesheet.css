@@ -55,8 +55,9 @@ hr.dashed {
 
 /* Small (sm) 320px up */
 @media only screen and (max-width: 320px) {
-    .gradient-bg {
+    .gradient-blue {
         background-size: 500% 200%;
+        width: 100%;
     }
 }
 
