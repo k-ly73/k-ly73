@@ -48,7 +48,7 @@
         <div class="container-fluid m-tb-300 center text-white">          
             <div class="row">           
                 <div class="col-sm-12 col-xs-4">       
-                    <h1 class="animate">
+                    <h1 class="animate1">
                         <span class="text-wrapper">
                             <span class="letters">You and I, can make UI</span>
                         </span>     
@@ -69,7 +69,7 @@
 
                 </div>
                 <div class="col-sm-2 col-xs-2" data-aos="fade-in">
-                    <h1 class="animate">About Me</h1>
+                    <h1 class="animate1">About Me</h1>
                     <br/>
                     <p class="about-text">
                         Hello! I'm Kevin, a graduate from Cal Poly Pomona,
@@ -77,7 +77,9 @@
                         I enjoy creating different kinds of interactive websites.
                         My vision is to implement ideal web design into reality.
                     </p>
+                    <br/>
                     <div>
+                        <p class="about-text">Check out some of my links here: </p>
                         <a href="https://github.com/k-ly73">
                             <img src="public/assets/images/github-logo.png">
                         </a>
@@ -93,7 +95,7 @@
 
                 </div> 
                 <div class="col-sm-2 col-xs-2" data-aos="fade-in">
-                    <h1 class="animate">Skills</h1>
+                    <h1 class="animate1">Skills</h1>
                     <br/>
                     <div class="row">
                         <div class="col-sm-6 col-xs-6">
@@ -129,7 +131,7 @@
             <hr class="dashed"></hr>
             <div class="row center text-white" style="margin-top: 100px;">
                 <div class="col-md-12 col-xs-12" data-aos="fade-in">
-                    <h1 class="animate">Projects</h1>
+                    <h1 class="animate1">Projects</h1>
                 </div>    
             </div>
             <div class="row text-white m-tb-100">
@@ -238,7 +240,7 @@
 
                 </div>
                 <div class = "col-md-4">
-                    <h1 class = "center animate">Contact</h1>
+                    <h1 class = "center animate1">Contact</h1>
                     <p>
                         If you would like to contact me for various reasons,
                         please leave your email and a short message. I will respond as soon as possible!
@@ -287,26 +289,28 @@
         AOS.init();
 
         // Moving Letters
-        var textWrapper = document.querySelector('.animate  .letters');
-        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class = 'letter'>$&</span>");
+        var animate1 = document.querySelector('.animate1  .letters');
+        animate1.innerHTML = animate1.textContent.replace(/\S/g, "<span class = 'letter'>$&</span>");
         anime.timeline({loop: true})
-            .add({
-                targets: '.animate  .letter',
-                opacity: [0, 1],
-                translateX: [40, 0],
-                translateZ: 0,              
-                easing: "easeOutExpo",
-                duration: 1400,
-                delay:(el, i) => 300 + 30 * i
-            }).add({
-                targets: '.animate  .letter',
-                opacity: [1, 0],
-                translateX: [0, -40],
-                translateZ: 0,
-                easing: "easeInExpo",
-                duration: 1200,
-                delay:(el, i) => 300 + 30 * i
-            })
+        .add({
+            targets: '.animate1  .letter',
+            opacity: [0, 1],
+            translateX: [40, 0],
+            translateZ: 0,              
+            easing: "easeOutExpo",
+            duration: 1400,
+            delay:(el, i) => 300 + 30 * i
+        }).add({
+            targets: '.animate1  .letter',
+            opacity: [1, 0],
+            translateX: [0, -40],
+            translateZ: 0,
+            easing: "easeInExpo",
+            duration: 1200,
+            delay:(el, i) => 300 + 30 * i
+        })
+
+        var animate2 = document.querySelector()
     </script>
 
 </body>
