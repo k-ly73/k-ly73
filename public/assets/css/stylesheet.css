@@ -1,6 +1,5 @@
 html {
     scroll-behavior: smooth;
-    overflow: overlay;
     overflow-x: hidden;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -10,6 +9,8 @@ html {
 }
 
 body {
+    margin:0;
+    padding:0;
     overflow-x: hidden;
 }
 .container-fluid {
