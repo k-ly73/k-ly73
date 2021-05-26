@@ -1,4 +1,4 @@
-html {
+/* html {
     scroll-behavior: smooth;
     overflow-x: hidden;
     background-repeat: no-repeat;
@@ -6,7 +6,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+} */
 
 body {
     margin:0;
