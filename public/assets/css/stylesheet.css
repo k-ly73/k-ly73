@@ -50,14 +50,9 @@ hr.dashed {
         max-width: 100%;
         height: auto;
     }
-}
-
-
-/* Small (sm) 320px up */
-@media only screen and (max-width: 320px) {
     .gradient-blue {
         background-size: 500% 200%;
-        width: 100%;
+        min-width: 100%;
     }
 }
 
