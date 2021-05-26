@@ -46,12 +46,17 @@ hr.dashed {
         width: 200px;
         height: auto;
     }
-    video {
-        max-width: 100%;
-        height: auto;
-    }
     .gradient-blue {
+        background: repeating-linear-gradient(-45deg, #831f00, #e73c7e, #23a6d5, lightgreen);
         background-size: 500% 200%;
+        background-repeat: repeat;
+        animation: gradient 15s ease infinite; 
+        height: auto;
+        min-height: 100%;
+        margin: 0px auto;
+        padding: 0px auto;
+        width: 100%;
+        position: absolute;
         min-width: 100%;
     }
 }
