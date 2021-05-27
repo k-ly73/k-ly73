@@ -35,11 +35,6 @@ hr.dashed {
 }
 /* Profile stuff */
 
-@media only screen and (max-width: 600px) {
-    .animate1 {
-        font-size: 2.2rem;
-    }
-  }
 
 
 
@@ -371,4 +366,11 @@ a.navbar-brand{
 
 ::-webkit-scrollbar-track {
     background: transparent;
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 600px) {
+    .animate1 {
+        font-size: 2.2rem;
+    }
 }
