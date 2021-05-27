@@ -12,10 +12,6 @@ html, body {
     color: #0f0 !important;
     outline: solid #f00 1px !important;
 } */
-.container-fluid {
-    width: 100%;
-
-}
 .m-tb-100 {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -74,6 +70,7 @@ hr.dashed {
     background: repeating-linear-gradient(-45deg, #831f00, #e73c7e, #23a6d5, lightgreen);
     background-size: 500% 200%;
     background-repeat: repeat;
+
     animation: gradient 15s ease infinite; 
     height: auto;
     min-height: 100%;
@@ -89,6 +86,7 @@ hr.dashed {
     background: repeating-linear-gradient(-45deg, #4fd6ff, #128bb8, #23a6d5, lightgreen);
     background-size: 500% 200%;
     background-repeat: repeat;
+    background-attachment: fixed;
     animation: gradient 15s ease infinite; 
     height: auto;
     min-height: 100%;
