@@ -59,18 +59,13 @@ hr.dashed {
     background: repeating-linear-gradient(-45deg, lightgreen, #128bb8, #23a6d5, lightgreen);
     background-size: 500% 200%;
     background-repeat: repeat;
-    background-attachment: fixed;
     animation: gradient 15s ease infinite; 
     height: auto;
     min-height: 100%;
     margin: 0px;
     padding: 0px;
     position: absolute;
-    max-width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
 }
 .auto-ctr {
     margin: auto;
