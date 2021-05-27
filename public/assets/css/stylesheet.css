@@ -118,11 +118,15 @@ hr.dashed {
     animation: gradient 15s ease infinite; 
     height: auto;
     min-height: 100%;
-    margin: 0px auto;
-    padding: 0px auto;
+    margin: 0px;
+    padding: 0px;
     width: 100%;
     position: absolute;
     max-width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .auto-ctr {
     margin: auto;
