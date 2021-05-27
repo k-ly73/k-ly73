@@ -13,6 +13,11 @@ html, body {
     outline: solid #f00 1px !important;
 } */
 
+@media screen {
+    .animate1 {
+        font-size: 2.2rem;
+    }
+}
 .m-tb-100 {
     margin-top: 100px;
     margin-bottom: 100px;
