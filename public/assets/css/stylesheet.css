@@ -1,6 +1,6 @@
 html, body {
     scroll-behavior: smooth;
-    width: 100vw;
+    max-width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
@@ -12,12 +12,6 @@ html, body {
     color: #0f0 !important;
     outline: solid #f00 1px !important;
 } */
-
-@media screen {
-    .animate1 {
-        font-size: 2.2rem;
-    }
-}
 .m-tb-100 {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -74,7 +68,7 @@ hr.dashed {
     margin: 0px;
     padding: 0px;
     position: absolute;
-    min-width: 100%;
+    max-width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
