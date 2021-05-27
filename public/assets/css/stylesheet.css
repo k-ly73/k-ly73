@@ -369,3 +369,16 @@ a.navbar-brand{
         font-size: 2.2rem;
     }
 }
+
+@media only screen and (max-width: 415px) {
+    .animate1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    .animate1 {
+        font-size: 2.2rem;
+    }
+}
+
