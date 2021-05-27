@@ -12,6 +12,7 @@ html, body {
     color: #0f0 !important;
     outline: solid #f00 1px !important;
 } */
+
 .m-tb-100 {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -67,9 +68,8 @@ hr.dashed {
     min-height: 100%;
     margin: 0px;
     padding: 0px;
-    width: 100%;
     position: absolute;
-    max-width: 100%;
+    min-width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
