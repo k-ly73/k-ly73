@@ -377,11 +377,17 @@ a.navbar-brand{
     .animate1 {
         font-size: 2.2rem;
     }
+    .gradient-blue {
+        min-width: 100vw;
+    }
 }
 
 @media only screen and (max-width: 412px) {
     .animate1 {
         font-size: 2.2rem;
+    }
+    .gradient-blue {
+        min-width: 100vw;
     }
 }
 
